@@ -14,9 +14,9 @@ import pyscf
 import pyscf.mcscf.avas
 import pyscf.tools.fcidump
 
-import dmrghandler.config_io as config_io
-import dmrghandler.pyscf_wrappers as pyscf_wrappers
-from dmrghandler.profiling import print_system_info
+import CAS.dmrghandler.src.dmrghandler.config_io as config_io
+import CAS.dmrghandler.src.dmrghandler.pyscf_wrappers as pyscf_wrappers
+from CAS.dmrghandler.src.dmrghandler.profiling import print_system_info
 
 # import dmrghandler.data_loading as data_loading
 log = logging.getLogger(__name__)

@@ -5,7 +5,7 @@ from pathlib import Path
 import numpy as np
 import yaml
 
-import dmrghandler.hdf5_io as hdf5_io
+import CAS.dmrghandler.src.dmrghandler.hdf5_io as hdf5_io
 
 log = logging.getLogger(__name__)
 
