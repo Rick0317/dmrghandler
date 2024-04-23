@@ -21,7 +21,6 @@ default_sweep_schedule_bond_dims = [default_final_bond_dim] * 4 + [
 default_sweep_schedule_noise = [1e-4] * 4 + [1e-5] * 4 + [0]
 default_sweep_schedule_davidson_threshold = [1e-10] * 8
 
-
 def single_qchem_dmrg_calc(
     one_body_tensor: np.ndarray,
     two_body_tensor: np.ndarray,
